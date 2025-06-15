@@ -24,36 +24,70 @@
 }
 
 body{
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     height: 100vh;
 }
 
 header{
-    background-color: #212f2f6e;
+    background-color: #172424;
     height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 0px 5px black;
 }
 
 header h1{
-    color: white;
+    color: greenyellow;
     font-size: 2em;
     transform: translateY(-4px);
 }
 
 header a{
-    color: white;
+    color: greenyellow;
     font-size: 1.2em;
     text-decoration: none;
 }
 
 #menu{
-    background-color: white;
+    background-color: greenyellow;
     min-width: 50px;
     min-height: 50px;
     flex-basis: 0 0;
+}
+
+/* --------------------- */
+
+/* Destaque */
+
+#img-destaque{
+    background-image: url(../imagens/img-destque.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+/* --------------------- */
+
+/* Conteudo 1 / Conteudo 2 */
+
+main{
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p{  
+    width: 300px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: justify;
 }
 
 /* --------------------- */
